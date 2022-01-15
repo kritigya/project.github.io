@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Luxurious+Roman&family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Luxurious+Roman&family=Orelega+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+  position: absolute;
+    background-color: rgb(127 127 132);
+    /* width: 15vw ; */
+    font-family: 'Orelega One', cursive;
+     height: 100vh;
+     /* transition: transform 0.3s ease-in;   */
+
+    /* height: 100vh; */
+}
+
+.sidebar nav{
+padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: rgb(248, 105, 105); */
+    width: 90vw ;
+     /* padding: 40px; */
+}
+
+.container{
+     display: flex; 
+}
+
+.infoContainer{
+     /* background-color: skyblue;  */
+    height: 55vh;
+    width: 60vw;
+margin: 150px 300px;
+display: flex;
+justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Archivo Narrow', sans-serif;
+     border: 10px solid rgb(114, 72, 10);
+    height: 380px;
+    margin: 10px 20px;
+    background-color:rgb(135 160 172);
+}
+.hello{
+    font-size: 65px;
+     
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Orelega One', 
+}
+.about{
+    font-size: 40px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+  }
+  
+.moreabout{
+  font-size: 25px;  
+  margin-top: 23px;
+  font-family: 'Orelega One', 
+}
+.buttons{
+    margin-top: 34px;
+
+}
+.btn{
+padding: 9px 14px;
+border-radius: 12px;
+color: white;
+background-color: skyblue;
+font-weight: bold;
+font-size: 21px;
+margin: 0 3px;
+cursor: pointer;
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.btn :hover{
+color: beige;
+background-color: rgb(128, 121, 121);
+}
+
+.devPic img{
+    height: 50vh;
+    border: 10px solid rgb(114, 72, 10);
+    margin: 9px 0px;
+}
+.contact {
+    margin-top: 2rem;
+    margin: 25px 330px ;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: var(--bottom-margin-2);
+  }
+  
+  .contact-form-container {
+    max-width: 40.75rem;
+    margin: 0 auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+  }
+  .contact-form-container label {
+    line-height: 2.7em;
+    font-weight: bolder;
+    color: black;
+  }
+  
+  .contact-form-container textarea {
+    min-height: 6.25rem;
+    font-size: 14px;
+  }
+  
+  .contact-form-container .input-field {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+     border: 5px outset rgb(42, 42, 121); 
+    font-size: 0.875rem;
+    outline: none;
+  }
+  /* .................................... */
+  .input-field::placeholder {
+    padding: 0.5rem;
+    color: gray;
+  }
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgb(156, 104, 204);
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold ;
+    
+  }
+  .submit-btn:hover {
+    background-color: rgb(134, 133, 133);
+    border: 2px solid rgb(58, 57, 57);
+    cursor: pointer;
+  }
+  .socials {
+    display: flow-root;
+    flex-direction: column;
+     position: fixed; 
+     right: 1%; 
+ bottom: 50%; 
+  }
+  
+  .socicon {
+    width: 7rem;
+    height: 5rem;
+  }
+ 
+
+ .form-check{
+flex-direction: row;
+}
+.form-check-input{
+width: 24px;
+margin: 3px 0;
+} 
+.blogItem {
+margin: 20px;
+/* font-family: 'Archivo Narrow', sans-serif; */
+font-family: 'Luxurious Roman', cursive;
+}
+  .blogContainer{
+  margin: 10px -1100px ;
+  /* width: 100px; */
+}  
+h1{
+ font-family: 'Luxurious Roman', cursive;
+ margin: 23px;
+}
+p{
+    font-family: 'Luxurious Roman', cursive;
+}
+/* .intro{
+  margin: 10px 88px;
+} */
+.intro{
+  margin: 10px 300px;
+} 
+.intro h2{
+    font-family: 'Luxurious Roman', cursive;
+    margin: 70px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.intro p{
+    font-family: 'Luxurious Roman', cursive;
+    margin: 12px;
+    /* font-weight: bolder; */
+}
+.skillContainer h2{
+  font-size: xx-large;
+  /* text-align: center;
+  align-items: center; */
+  text-decoration: underline;
+}
+.skillContainer{
+    padding: 10px;
+    text-align: center;
+    margin: 40px 606px;
+}
+.skillItem{
+    display: flex;
+align-items: center;
+font-family: 'Luxurious Roman', cursive;
+font-weight: 900;
+/* justify-content: center; */
+}
+.skill{
+    width: 265px;
+    height: 8px;
+    background-color: red;
+    border: 2px solid black;
+    ;
+}
+.hundred{
+    width: 265px;
+    background-color: gray;
+}
+.fifty{
+    width: 1255px;
+    background-color: cadetblue;
+}
+.t5{
+    width: 75px;
+    background-color: chocolate;
+}
+
+.projects {
+    background-color: var(--bg-color);
+    padding: 10px 0;
+    margin-top: 2rem;
+  }
+  
+  .project-pic {
+    width: 65%;
+    height: 60%;
+  }
+  
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+  }
+
+  .project-container p {
+    padding: 0.4rem;
+    /* font-weight: bolder; */
+  }
+  
+  .project-title {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .project-details {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
+   /* .sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+  }  */
+  /* .hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+  }  */
+  /* .ham{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .cross{
+    margin-left: 185px;
+    margin-top: 10px; */
+   
+  @media (max-width: 1615px) {
+    *{
+     /* *{ background-color: rgb(255, 188, 188);
+   }   */
+  }
+  /* .devPic{
+    display: none;
+  } */
+}
+   /* .sidebar{
+     transform: translate(-443px, 0px); 
+     position: absolute;  
+  }  */
+  /* .intro .blogContainer, .contact {
+    margin: 50px 8px;
+  } */
+  
+  /* .intro{
+    margin: 10px 300px;
+  } */
+
+body {
+  background-image: url(backkk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1.5;
+}
+
+
